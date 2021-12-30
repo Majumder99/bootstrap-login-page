@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-font-family: "Poppins", sans-serif;
+  --light-white: #f5f8fa;
+  --grey: #5e6278;
+  --grey-1: #e3e3e3;
+}
+body {
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+}
+.wrapper {
+  padding: 0 0 100px;
+  background-image: url("images/bg.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  min-height: 100%;
+}
+.logo img {
+  width: 40%;
+}
+.wrapper input {
+  background-color: var(--light-white);
+  border-color: var(--light-white);
+  color: var(--grey);
+}
+.wrapper input:focus {
+  box-shadow: none;
+  border-color: var(--light-white);
+}
+.wrapper .submit_btn {
+  padding: 15px;
+  font-weight: 500;
+}
+.wrapper .login_with {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.wrapper .submit_btn:focus,
+.wrapper .login_with:focus {
+  box-shadow: none;
+}
+.wrapper .login_with:hover {
+  background-color: var(--grey-1);
+  border-color: var(--grey-1);
+}
+.wrapper .login_with img {
+  max-width: 10%;
+}
