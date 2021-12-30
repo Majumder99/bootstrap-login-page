@@ -56,3 +56,6 @@ body {
 .wrapper .login_with img {
   max-width: 10%;
 }
+.wrapper .password-info {
+  font-size: 12px;
+}
